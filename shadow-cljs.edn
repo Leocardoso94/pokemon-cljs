@@ -14,4 +14,10 @@
    {:http-root "public"
     :http-port 3000
     :after-load pokemon.core/render
-    :preloads   [devtools.preload]}}}}
+    :preloads   [devtools.preload]}
+   :release
+   {:compiler-options
+    {:closure-defines {"goog.DEBUG" false}
+     :optimizations   :advanced
+     :source-map      "build/app.map"}
+    :output-dir "build"}}}}
