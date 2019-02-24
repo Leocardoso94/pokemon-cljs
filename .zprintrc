@@ -1,0 +1,48 @@
+{:old?        false
+ :style       [:binding-nl :extend-nl :map-nl :pair-nl :justified]
+ :width       100
+ :fn-map      {":import"                :flow-body
+               ":require"               :flow-body
+               ":require-macros"        :flow-body
+               "="                      :gt2-force-nl
+               "and"                    :gt2-force-nl
+               "are"                    :arg2
+               "assoc-if"               :arg2
+               "assoc-some"             :arg1-pair
+               "assoc-with-prev"        :arg1-pair
+               "bottom-wrap"            :arg1-body
+               "cond-class"             :pair-fn
+               "defcard"                :arg1-body
+               "defcard-rg"             :arg1-body
+               "defproject"             :arg2-pair
+               "defroute"               :arg1-body
+               "deftest"                :arg1-body
+               "doo-tests"              :flow-body
+               "focus-container"        :arg1
+               "focus-target"           :arg1
+               "follow-*"               :arg2
+               "follow-1"               :arg2
+               "hide-for-paystub"       :arg1-body
+               "mutate!"                :arg1-pair
+               "not="                   :gt2-force-nl
+               "or"                     :gt2-force-nl
+               "query"                  :arg1
+               "reg-cofx"               :arg1-body
+               "reg-event-ctx"          :arg1-body
+               "reg-event-db"           :arg1-body
+               "reg-event-fx"           :arg1-body
+               "reg-fx"                 :arg1-body
+               "reg-sub"                :arg1-body
+               "reg-sub-raw"            :arg1-body
+               "run-test-sync"          :flow-body
+               "set-state"              :arg1
+               "show-for-paystub"       :arg1-body
+               "swap!"                  :arg1
+               "testing"                :arg1
+               "update-state"           :arg1
+               "with-let"               :binding
+               "with-mounted-component" :flow-body}
+ :fn-force-nl #{:fn :arg1-body :binding}
+ :vector      {:wrap-coll? false}
+ :map         {:force-nl? true
+               :comma? false}}
