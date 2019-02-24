@@ -1,25 +1,25 @@
 # pokemon cljs
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to get infos about pokemons
+Uma aplicação para treinar alguns conceitos de ClojureScript usando as tecnologias da nossas stack.
+- reagent
+- re-frame 
+- shadow-cljs
 
-## Development Mode
+A ideia é construir uma aplicação que faça requests http para essa api https://graphql-pokemon.now.sh/ em graphql e renderizar alguns dados na tela.
 
-### Run application:
+
+### Rodando a aplicação:
 
 ```
+git clone --single-branch --branch <onboarding-xerpa> https://github.com/Leocardoso94/pokemon-cljs.git
+cd pokemon-cljs
 yarn 
 yarn start
 ```
 
-Shadow-cljs will automatically push cljs changes to the browser.
+Aguarde um poquinho e acesse [http://localhost:3000](http://localhost:3000).
 
-Wait a bit, then browse to [http://localhost:3449](http://localhost:3000).
-
-## Production Build
-
-
-To compile clojurescript to javascript:
-
-```
-yarn build
-```
+### Em caso de dúvidas
+Você pode seguir esse exemplo:
+- Resultado da aplicação: https://leocardoso94.github.io/pokemon-cljs/
+- Código fonte: https://github.com/Leocardoso94/pokemon-cljs/tree/master/src/pokemon
