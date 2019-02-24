@@ -12,7 +12,6 @@
   "dependencies": {
     "create-react-class": "^15.6.3",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-loader-spinner": "^2.3.0"
+    "react-dom": "^16.8.3"
   }
 }
