@@ -4,6 +4,7 @@
  :dependencies
  [[reagent "0.8.1"]
   [re-frame "0.10.6"]
+  [cider/cider-nrepl "0.18.0"]
   [binaryage/devtools "0.9.10"]]
 
  :builds
