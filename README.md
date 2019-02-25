@@ -11,8 +11,9 @@ A ideia é construir uma aplicação que faça requests http para essa api https
 ### Rodando a aplicação:
 
 ```
-git clone --single-branch --branch <onboarding-xerpa> https://github.com/Leocardoso94/pokemon-cljs.git
-cd pokemon-cljs
+git clone https://github.com/Leocardoso94/pokemon-cljs.git
+cd pokemon-cljs 
+git checkout onboarding-xerpa
 yarn 
 yarn start
 ```
